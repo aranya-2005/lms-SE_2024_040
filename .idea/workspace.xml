@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4bfccb1c-6261-45ba-94da-7b38878f1ec8" name="Changes" comment="">
-      <change beforePath="D:/lms-SE_2024_040/src/Main.java" beforeDir="false" afterPath="D:/lms-SE_2024_040/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/uml-week4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lms/model/Loanable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lms/model/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lms/model/Reservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lms/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lms/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lms/model/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lms/model/DVD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,29 +19,91 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/lms-SE_2024_040" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pranavan-dev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pranavan-dev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aranya-2005/lms-SE_2024_040.git",
-    "accountId": "613f0bf6-b039-4f10-be13-7f20d07370fd"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aranya-2005/lms-SE_2024_040.git&quot;,
+    &quot;accountId&quot;: &quot;613f0bf6-b039-4f10-be13-7f20d07370fd&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="6.703432072481717E-210" />
+      <entry key="MS500" value="1.463050923432457E-42" />
+      <entry key="S2" value="3.4778821423439746E-11" />
+      <entry key="S5" value="6.554294392734006E-5" />
+      <entry key="S10" value="0.008095859678091021" />
+      <entry key="S30" value="0.2007956610704438" />
+      <entry key="S60" value="0.4481022886244209" />
+      <entry key="M2" value="0.6694044282975883" />
+      <entry key="M5" value="0.8516780067273905" />
+      <entry key="M10" value="0.9228640239641973" />
+      <entry key="M15" value="0.9478911695968797" />
+      <entry key="M30" value="0.9735970262880221" />
+      <entry key="H1" value="0.9867102038025258" />
+      <entry key="H2" value="0.9933328766342759" />
+      <entry key="H4" value="0.996660863400523" />
+      <entry key="D1" value="0.999442701355688" />
+      <entry key="W1" value="0.9999203668861817" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000002892446" />
+      <entry key="S5" value="1.0001777459434593" />
+      <entry key="S10" value="1.019433426116467" />
+      <entry key="S30" value="1.696510380099153" />
+      <entry key="S60" value="3.1793554057497944" />
+      <entry key="M2" value="5.3387843837486" />
+      <entry key="M5" value="8.005044451388642" />
+      <entry key="M10" value="9.335921663471053" />
+      <entry key="M15" value="9.849153281375298" />
+      <entry key="M30" value="10.40259580176126" />
+      <entry key="H1" value="10.695553529613678" />
+      <entry key="H2" value="10.846308161648507" />
+      <entry key="H4" value="10.92278277753024" />
+      <entry key="D1" value="10.987078536360963" />
+      <entry key="W1" value="10.998152800272692" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.007442484359718262" />
+      <entry key="MS500" value="0.37526977437859277" />
+      <entry key="S2" value="0.7826829920829915" />
+      <entry key="S5" value="0.9067809243995105" />
+      <entry key="S10" value="0.973260348088202" />
+      <entry key="S30" value="1.8160515834001405" />
+      <entry key="S60" value="3.536433489727939" />
+      <entry key="M2" value="5.934880477759232" />
+      <entry key="M5" value="8.81622393552855" />
+      <entry key="M10" value="10.23603744230756" />
+      <entry key="M15" value="10.781260644337006" />
+      <entry key="M30" value="11.367973979887694" />
+      <entry key="H1" value="11.678069020468508" />
+      <entry key="H2" value="11.837521895273863" />
+      <entry key="H4" value="11.918378563431725" />
+      <entry key="D1" value="11.986342954977516" />
+      <entry key="W1" value="11.998047679276393" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3M9aVkxzRp03Lj8Hb0zZK1ttTdW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,14 +117,42 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "week4-abstraction-interfaces",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/lms-SE_2024_040/src/lms/model",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/lms-SE_2024_040/src/Main.java",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lms-SE_2024_040\src\lms\model" />
+      <recent name="D:\lms-SE_2024_040\docs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lms.Main" />
+      <module name="lms-SE_2024_040" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +178,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://D:/lms-SE_2024_040/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
